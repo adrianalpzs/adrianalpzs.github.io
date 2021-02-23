@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 980px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+/* Header */
+
+header {
+    text-align: center;
+    display: block;
+}
+
+header .profileHeader h1 {
+    font-family: Bangala MN;
+    color: rgba(49, 53, 99);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+header .profileHeader h3 {
+    font-family: avenir;
+    color: rgba(41, 42, 57);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+header .profileHeader p {
+    font-family: avenir;
+    color: rgba(103, 104, 111);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    overflow-y: auto;
+}
+header .workImages {
+    text-align: center;
+    display: block;
+    margin-top: 58px;
+    clear: both;
+}
+
+
+
+
+
+/* programing languages */
+.mainContent .section1 {
+    display: block;
+}
+.section1 .section1Content .iconPhoto {
+    float: left;
+    clear: both;
+    margin-left: -20%;
+    margin-top: 0%;
+  
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+    font-family: Avenir;
+    color: rgba(103, 104, 111);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+    margin: 0 3% 0 0;
+    float: left;
+    clear: both;
+}
+
+/*HERE*/
+/*universidad y text bas*/
+.mainContent .section1 .section1Content {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(94, 94, 95);
+}
+
+/*universidad*/
+.mainContent .section1 .section1Content span {
+    color: rgba(50, 103, 156);
+    font-family: Avenir;
+}
+
+/*titulos project*/
+.section2 .sectionContentTitle {
+    font-family: Avenir;
+    color: rgba(147, 44, 36);
+    font-size: 18px;
+    font-weight: 700;
+}
+/*numeros project*/
+.section2 .sectionContentSubTitle {
+    font-family: Avenir;
+    color: rgba(147, 44, 36);
+    font-size: 15px;
+    font-weight: 800;
+}
+/*texto project*/
+.section2 .sectionContent {
+    font-family: Avenir;
+    text-align: justify;
+    color: rgba(92, 93, 95);
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.mainContent {
+    display: block;
+}
+
+/*Nda*/
+.mainContent .externalResourcesNav .externalResources {
+    background-color: rgba(208,207,207,1.00);
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+.stretch {
+    content: '';
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/* Footer */
+footer .footerDisclaimer {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(104,103,103,1.00);
+    font-weight: 700;
+}
+footer .footerDisclaimer span {
+    color: rgba(181,178,178,1.00);
+    font-weight: 400;
+}
+footer .footerNote {
+    font-family: avenir;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(104,103,103,1.00);
+    font-weight: 700;
+}
+footer .footerNote span {
+    color: rgba(181,178,178,1.00);
+    font-weight: 400;
+}
+
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+/* Header */
+header {
+    width: 100%;
+    float: none;
+}
+
+header .profileHeader {
+    text-align: center;
+    margin-top: 10%;
+}
+header .profileHeader p {
+    text-align: justify;
+}
+header .socialNetworkNavBar {
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    clear: both;
+    margin-bottom: 15%;
+}
+
+/* Main content sections */
+.mainContent .section1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+    text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+    width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+    display: none;
+}
+.mainContent .section1 .section1Content {
+    display: inline-block;
+    text-align: left;
+    font-family: Avenir;
+    text-align: justify;
+}
+.mainContent .section2 {
+    display: block;
+    text-align: center;
+}
+.section2 .section2Content {
+    margin-top: 10%;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+    margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+    width: 100%;
+    height: 35px;
+}
+/* Footer */
+footer {
+    display: block;
+    text-align: center;
+    font-family: avenir;
+}
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+/* Header */
+header {
+    width: 100%;
+    float: none;
+}
+
+header .profilePhoto {
+    float: left;
+    clear: both;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+header .profileHeader {
+    text-align: left;
+    margin-top: 7%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    margin-right: 23px;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+    text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+    width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+    display: none;
+}
+.mainContent .section1 .section1Content {
+    display: block;
+    margin: 0% 0% 0% 20%;
+    font-family: sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mainContent .section2 {
+    clear: both;
+}
+.section2 .section2Content {
+    padding: 0px;
+    margin-left: 20%;
+    font-family: sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+    margin-left: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 0px;
+    clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+    width: 199px;
+    height: 48px;
+    margin-top: 5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+    float: left;
+    margin-left: 3%;
+    font-family: sans-serif;
+}
+footer .footerNote {
+    float: right;
+    margin-right: 3%;
+    font-family: sans-serif;
+}
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+    float: left;
+    margin-bottom: 50px;
+}
+
+header .profileHeader {
+    text-align: left;
+    padding-top: 10%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    margin-right: 23px;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+    width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+    display: block;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 26%;
+    margin-bottom: 0%;
+    font-family: avenir;
+}
+.mainContent .section2 {
+    clear: both;
+}
+.section2 .section2Content {
+    padding: 0px;
+    margin-left: 26%;
+    font-family: avenir;
+}
+.mainContent .externalResourcesNav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 0px;
+    clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+    width: 199px;
+    height: 48px;
+}
+.photo {
+    float: center;
+    clear: both;
+    margin-right: 3%;
+}
+/* Footer */
+footer .footerDisclaimer {
+    float: left;
+    margin-left: 3%;
+    font-family: sans-serif;
+}
+footer .footerNote {
+    float: right;
+    margin-right: 1%;
+    font-family: sans-serif;
+}
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 6px; /* Add top padding */
+  padding-bottom: 6px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.html {width: 30%; background-color: #2196F3;} /* Blue */
+.css {width: 30%; background-color: #2196F3;} /* Blue */
+.py {width: 70%; background-color: #4CAF50;} /* Green */
+.cpp {width: 65%; background-color: #4CAF50;} /* Green */
+.mlx {width: 65%; background-color: #4CAF50;} /* Green */
+.Erl {width: 10%; background-color: #f44336;} /* Red */
