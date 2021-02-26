@@ -1,0 +1,69 @@
+body { font: normal 14px/18px Avenir; background-color: rgba(192, 226, 240, 0.5); }
+
+h1 { font-size: 40px; line-height: 25px; border-left: 500px solid rgb(15, 48, 58); border-right: 500px solid rgb(15, 48, 58); color:rgb(63, 99, 129); padding-left:0px; font-weight:bold; text-align: center; }
+h3 { font-size: 15px; line-height: 20px; border-left: 3px solid rgb(7, 79, 172); padding-left:5px; border-bottom: 2px solid rgb(7, 79, 172);}
+footer { font-size: 12px; line-height: 16px; font-family: Arial;}
+
+
+hr {
+	border-top-color: rgb(73, 72, 85);
+	border-top-color: rgba(0,0,0,0.1);
+}
+
+
+select, input, textarea, button { font-size: 14px; } 
+
+.tabla {
+	background-color: rgb(32, 13, 121);
+	color: rgb(252, 252, 252);
+	font-weight:bold;
+	}
+
+
+    /* Images and Objects (Needed for System Markup)
+    ----------------------------------------------------------------------------------------------------*/
+    
+    img.border-box {
+        padding: 4px;
+        border: 1px solid #ddd;
+        border-bottom-color: #ccc;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-bottom-color: rgba(0,0,0,0.18);
+        border-radius: 4px;
+        background: #fff;
+        background-clip: padding-box;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    
+    
+    /* Tabla */
+    ul.zebra > li,
+    table.zebra tbody td {
+        border-bottom: 5px solid rgba(0,0,0,0.1);
+    }
+    
+
+    table.zebra tbody,
+    table.zebra tfoot { font-size: 16px; }
+    
+
+.iconPhoto {
+    float: right;
+    clear: both;
+    margin-right: 10%;
+    margin-top: 0%;
+  
+}
+.iconPic {
+    float: right;
+    clear: both;
+    margin-right: 21%;
+    margin-top: -25%;
+  
+}
