@@ -398,8 +398,9 @@ footer .footerNote {
 }
 
 
-.html {width: 30%; background-color: #2196F3;} /* Blue */
-.css {width: 30%; background-color: #2196F3;} /* Blue */
+.html {width: 70%; background-color: #4CAF50;} /* Green */
+.css {width: 70%; background-color: #4CAF50;} /* Green */
+.js {width: 70%; background-color: #4CAF50;} /* Green */
 .py {width: 70%; background-color: #4CAF50;} /* Green */
 .cpp {width: 65%; background-color: #4CAF50;} /* Green */
 .mlx {width: 65%; background-color: #4CAF50;} /* Green */
